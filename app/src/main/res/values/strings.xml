@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Shark Supplement</string>
+    <string name="app_name">My_Build_Muscles</string>
+    <string name="action_home">Home</string>
+    <string name="action_diary">Diary</string>
+    <string name="action_progress">Progress</string>
+    <string name="action_more">More</string>
+    <string name="action_goals">Goals</string>
+    <string name="action_nutrition">Nutrition</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">LogOut</string>
 </resources>

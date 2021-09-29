@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sign_up"
+    tools:context=".SignUp"
     android:padding="20dp"
     android:orientation="vertical"
     android:background="#fff">
@@ -13,29 +13,27 @@
         android:id="@+id/logoImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-12dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="55dp"
         android:src="@drawable/logonho"
         android:transitionName="logo_image" />
 
-
-    <ImageView
-        android:id="@+id/logoImage1"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="-110dp"
-        android:src="@drawable/shark"
-        android:transitionName="logo_image" />
-
-    <ImageView
-        android:id="@+id/logoImage2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/supplement"
-        android:transitionName="logo_image" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/bentham"
+        android:gravity="center_horizontal"
+        android:rotation="0"
+        android:text="MyBuildMuscle"
+        android:textAlignment="center"
+        android:textColor="#828282"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:transitionName="logo_text" />
 
 
 
