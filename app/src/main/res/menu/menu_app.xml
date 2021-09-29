@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/action_home"
+            android:title="@string/action_home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/action_diary"
+            android:title="@string/action_diary"
+            android:icon="@drawable/book"/>
+
+        <item
+            android:id="@+id/action_progress"
+            android:title="@string/action_progress"
+            android:icon="@drawable/chart"/>
+
+        <item
+            android:id="@+id/action_goals"
+            android:title="@string/action_goals"
+            android:icon="@drawable/ic_baseline_data_usage_24"/>
+
+        <item
+            android:id="@+id/action_nutrition"
+            android:title="@string/action_settings"
+            android:icon="@drawable/ic_baseline_donut_small_24"/>
+
+        <item
+            android:id="@+id/action_settings"
+            android:title="@string/action_settings"
+            android:icon="@drawable/ic_outline_settings_24"/>
+
+        <item
+            android:id="@+id/action_logout"
+            android:title="@string/action_logout"
+            android:icon="@drawable/logout"/>
+    </group>
+</menu>
